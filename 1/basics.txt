@@ -1,0 +1,11 @@
+For very long numbers greater then 64 bits we can use the following method
+
+----> include<stdint.h> header file
+then use int64_t nameofthevariabel for 64 bit signed interger, similarly use uint64_t for unsigned int of 64 bits.
+
+To use more than 64 bits usually used only in cp like int128_t,int256_t, int512_t, or int1024_t we need to include boost library instead of #include<stdint.h>
+#include <boost/multiprecision/cpp_int.hpp>
+using namespace boost::multiprecision;
+
+
+
