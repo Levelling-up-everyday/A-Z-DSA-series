@@ -8,4 +8,6 @@ To use more than 64 bits usually used only in cp like int128_t,int256_t, int512_
 using namespace boost::multiprecision;
 
 
+Arrays are passesed by refrence only pass it as & when u need to store something in it.
+
 
