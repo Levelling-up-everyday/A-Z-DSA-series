@@ -11,3 +11,17 @@ using namespace boost::multiprecision;
 Arrays are passesed by refrence only pass it as & when u need to store something in it.
 
 
+2-d vector printing:
+for (int i = 0; i < vec.size(); i++)
+{
+    for (int j = 0; j < vec[i].size(); j++)
+    {
+        cout << vec[i][j];
+    }
+}
+
+
+vector initalization:
+vector<int> row(n,0);
+
+
