@@ -24,4 +24,64 @@ for (int i = 0; i < vec.size(); i++)
 vector initalization:
 vector<int> row(n,0);
 
+v.end() points after the last location ex : 1,2 ,3 points after 3
+
+v.erase(v.begin()+1,v.begin()+3) inttial 1,2,3,4 after 1,4  it is [start,end)
+
+priority_queue inside a tree is maintained and not stored in a linear manner, similary for set
+priority_queue<int> pq ----> Largest element stays at the top  
+
+priority_queue<int, vector<int>, greater<int>> p; -----> smallest element stays at the top
+push /delete takes O(logn)
+
+set-----> sorted and unique
+if st.find(3) not present it points to after last element
+
+Binary search stl----> bool a= binary_search(a,a+n,5);
+lower bound index----> auto it=lower_bound(a,a+n,5)-a;
+or lower_bound(a.begin(),a.end(),5)-a.begin();
+similary for upper_bound.
+
+he end pointer points to the element after the last element, like a.end() will point to the element after the last element.. also a + n will point to the nth element (which doesn't actually exist, it's a theoretical end position).. the pointers point like [start, end)..
+
+mulltiset---> only soted
+unorderd_set----> only unique
+
+map<int,int> m;---> key is unique,values can repeat , key and value can be of any data type, sorted
+multimap---> duplicate keys , sorted
+unordered_map--> no duplicate, unsorted
+
+
+sort
+sort(v.begin(),v.end());
+sort(v.begin(),v.end(),greater<int>);// descending order
+sort(v.begin(),v.end(),comp)// comp is user defined
+bool comp(pair<int,int> p1,pair<int,int> p2)
+{
+ //take 2 pairs and write possible condditions dont think it as an array
+ if(p1.second<p2.second) return true;
+ if(p1.second>p2.second) return false;
+ if(p1.first> p2.first) return true;
+ return false;
+}
+the aboe comp operator is for sorting elements in the order of second element pair in ascending and first element pair in descending
+
+int num=7;
+int count=__builtin_popcount(); // returns the no of ones of the number when represented in the binary format
+for long numbers use __bulitin_popcountll();
+
+printing all permutations of a string
+string s="123";
+
+do{
+ cout<<s<<endl;
+ }while(next_permutation(s.begin(),s.end());
+ 
+ 
+ max element
+ int maxi=*max_element(v.begin(),v.end());
+
+
+
+
 
