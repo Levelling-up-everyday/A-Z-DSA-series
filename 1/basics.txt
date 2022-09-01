@@ -81,6 +81,13 @@ do{
  max element
  int maxi=*max_element(v.begin(),v.end());
 
+  Condtion checking
+  int a;
+    cin>>a;
+    int i=5;
+    if(a&&i<7)cout<<i;
+    
+    if only a >1 it prints i if a is 0 condition fails and it doesnt execute the statement
 
 
 
