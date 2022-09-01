@@ -19,7 +19,8 @@ int secondSmallest(int arr[],int n)
           second_small = arr[i];
        }
     }
-   return second_small;     
+   	   if(second_large!=INT_MIN) return second_large;
+	   else return -1;
 }
 int secondLargest(int arr[],int n)
 {
