@@ -1,1 +1,2 @@
 string has erase func same as vectors
+need to do str[]-'0' to get values of integers as it will be stored char and needs to be in int. '0' is the ascii value of 48.
