@@ -21,7 +21,7 @@ if (isalpha(c)) {
 if(c>='0' && c<='9') return its number else not num;
 
 
-Substring---> A substring is a subset or part of another string, or it is a contiguous sequence of characters within a string. 
+Substring---> Same as sub array
 s.substr(i, len); get a sub-string from given pos i to the given length
 s.substr(pos+1);--> get a sub-string after a character
 string sub = s.substr(0 , pos);-->  get a sub-string before a character
