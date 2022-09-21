@@ -97,7 +97,7 @@ Subarray: contiguous sequence in an array i.e.  {1,2},{1,2,3}
 
 Subsequence: Need not to be contiguous, but maintains order i.e.  {1,2,4}
 
-Subset: Same as subsequence except it has empty set i.e. [1,3},{}
+Subset: [1,3,2] - is not continous and does not maintain relative order of elements
 
 Given an array/sequence of size n, possible
 Subarray = n*(n+1)/2
