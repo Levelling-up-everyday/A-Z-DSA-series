@@ -1,2 +1,27 @@
 string has erase func same as vectors
+
 need to do str[]-'0' to get values of integers as it will be stored char and needs to be in int. '0' is the ascii value of 48.
+
+s.find(" value") returns the index
+
+int num=stoi(str); --> string to integer
+string str= to_string(i);----> integer to string
+
+
+char c = 'a'; 
+if (isalpha(c)) {
+    puts("it's a letter");
+} else if (isdigit(c)) {
+    puts("it's a digit");
+} else {
+    puts("something else?");
+}
+
+
+if(c>='0' && c<='9') return its number else not num;
+
+
+Substring---> A substring is a subset or part of another string, or it is a contiguous sequence of characters within a string. 
+s.substr(i, len); get a sub-string from given pos i to the given length
+s.substr(pos+1);--> get a sub-string after a character
+string sub = s.substr(0 , pos);-->  get a sub-string before a character
