@@ -104,3 +104,5 @@ Subarray = n*(n+1)/2
 Subseqeunce = (2^n) -1 (non-empty subsequences)
 Subset = 2^n
 
+// remove duplicates from a vector candidates
+candidates.erase(unique(candidates.begin(), candidates.end()), candidates.end());
