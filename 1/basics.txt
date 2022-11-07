@@ -106,3 +106,7 @@ Subset = 2^n
 
 // remove duplicates from a vector candidates
 candidates.erase(unique(candidates.begin(), candidates.end()), candidates.end());
+
+A structure is a user-defined data type in C/C++. A structure creates a data type that can be used to group items of possibly different types into a single type. 
+
+in pointers : In general, nums[ i ][ j ] is equivalent to *(*(nums+i)+j) for arrays.
