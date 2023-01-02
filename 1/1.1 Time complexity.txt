@@ -8,6 +8,7 @@ Space Complexity: Memory Space which the program take
 it is also define as auxiliary space(space that need to solve problem)+ input space(space that need to store input)
 
 Never manupilate the input
+TC:1sec =O(10 power 8) operations.
 
 LOOPS:
 When there are consecutive loops, we calculate time complexity as a sum of time complexities of individual loops. 
