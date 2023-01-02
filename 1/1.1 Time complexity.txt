@@ -5,7 +5,7 @@ To calculate time complezity use these 3 steps
 3.Avoid lower values
 
 Space Complexity: Memory Space which the program take
-it is also define as auxiliary space(space that need to solve problem)+ input space(space that need to store in
+it is also define as auxiliary space(space that need to solve problem)+ input space(space that need to store input)
 
 
 LOOPS:
