@@ -1,0 +1,4 @@
+String: To get more than 2 words in a single varriable use getlin(cin,str);
+Pass by refernce: &
+Arrays are by default passes by refernce
+Time complexity is the rate of time taken wrt to increasing inputs.
