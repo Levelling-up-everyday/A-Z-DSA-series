@@ -7,51 +7,18 @@ To calculate time complezity use these 3 steps
 Space Complexity: Memory Space which the program take
 it is also define as auxiliary space(space that need to solve problem)+ input space(space that need to store input)
 
+Never manupilate the input
 
 LOOPS:
 When there are consecutive loops, we calculate time complexity as a sum of time complexities of individual loops. 
-Example:
-   for (int i = 1; i <=m; i += c) {  
-        // some O(1) expressions
-   }
-   for (int i = 1; i <=n; i += c) {
-        // some O(1) expressions
-   }
-   Time complexity of above code is O(m) + O(n) which is O(m+n)
+ex: O(m) + O(n) which is O(m+n)
    
+     Time complexity of nested loops is equal to the number of times the innermost statement is executed
    
-   
-    O(nc): Time complexity of nested loops is equal to the number of times the innermost statement is executed. For example, the following sample loop has O(n2) tc
-   for (int i = 1; i <=n; i += c) {
-       for (int j = 1; j <=n; j += c) {
-          // some O(1) expressions
-       }
-   }
-   
-   
-   
-    O(Logn) Time Complexity of a loop is considered as O(Logn) if the loop variables are divided/multiplied by a constant amount. And also for recursive call in recursive function the Time Complexity is considered as O(Logn).
- 
-
-   for (int i = 1; i <=n; i *= c) {
-       // some O(1) expressions
-   }
-   for (int i = n; i > 0; i /= c) {
-       // some O(1) expressions
-   }
+    O(Logn) Time Complexity of a loop is considered as O(Logn) if the loop variables are divided/multiplied by a constant amount.
    
    
     O(LogLogn) Time Complexity of a loop is considered as O(LogLogn) if the loop variables are reduced/increased exponentially by a constant amount. 
  
-
-   // Here c is a constant greater than 1   
-   for (int i = 2; i <=n; i = pow(i, c)) { 
-       // some O(1) expressions
-   }
-   //Here fun is sqrt or cuberoot or any other constant root
-   for (int i = n; i > 1; i = fun(i)) { 
-       // some O(1) expressions
-   }
-
 RECURRENCE RELATION:
 https://www.geeksforgeeks.org/analysis-algorithm-set-4-master-method-solving-recurrences/?ref=lbp
