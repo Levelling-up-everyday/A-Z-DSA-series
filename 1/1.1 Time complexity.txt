@@ -1,3 +1,13 @@
+Time Complexity is the rate of time taken wrt to increasing inputs.
+To calculate time complezity use these 3 steps
+1.TC calulated in worst case
+2.Avoid constants
+3.Avoid lower values
+
+Space Complexity: Memory Space which the program take
+it is also define as auxiliary space(space that need to solve problem)+ input space(space that need to store in
+
+
 LOOPS:
 When there are consecutive loops, we calculate time complexity as a sum of time complexities of individual loops. 
 Example:
