@@ -1,1 +1,1 @@
-qq
+Number of digits is also log10(n)+1
